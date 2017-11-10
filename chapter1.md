@@ -1,6 +1,6 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Teste para o curso de R usando a plataforma datacamp
+description : Primeiro capítulo
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -18,10 +18,10 @@ key: 113c776067
 Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
 
 `@instructions`
-- Adventure
-- Action
-- Animation
-- Comedy
+- Opção 1
+- Numera
+- Appus
+- Teste1
 
 `@hint`
 Have a look at the plot. Which color does the point with the lowest rating have?
