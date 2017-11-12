@@ -1,8 +1,8 @@
 ---
-title       : Teste para o curso de R usando a plataforma datacamp
-description : Primeiro capítulo
+title       : Obtenção dos dados
+description : Aqui você exercitará a importação do dataset que utilizaremos no nosso estudo de caso 
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+slides_link : https://docs.google.com/a/numera.consulting/presentation/d/1BIxXHD4vZgtPIjg7efmYQp2Amww5Vlv84Z8qr_Nx29c/edit?usp=sharing
 
 ---
 ## A really bad movie
