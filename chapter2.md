@@ -33,10 +33,10 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 ```{r}
 # You can also prepare your dataset in a specific way in the pre exercise code
 load(url("https://drive.google.com/file/d/115F78rv7I9T_69bdN8z9rewnb_VAtQNe/view?usp=sharing"))
-movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"), c("Genre", "Rating", "Run")]
+#movie_selection <- DadosEvasao
 
 # Clean up the environment
-rm(Movies)
+#rm(Movies)
 ```
 
 `@sample_code`
