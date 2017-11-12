@@ -32,7 +32,7 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 `@pre_exercise_code`
 ```{r}
 # You can also prepare your dataset in a specific way in the pre exercise code
-load(url("https://drive.google.com/file/d/115F78rv7I9T_69bdN8z9rewnb_VAtQNe/view?usp=sharing"))
+load(url("https://drive.google.com/file/d/1idcVkLVndDh_IPoboM4lAAjQYZvTvjVF/view?usp=sharing"))
 #movie_selection <- DadosEvasao
 
 # Clean up the environment
