@@ -32,7 +32,7 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 `@pre_exercise_code`
 ```{r}
 # You can also prepare your dataset in a specific way in the pre exercise code
-load(url("https://s3.amazonaws.com/assets.datacamp.com/course/teach/movies.RData"))
+load(url("https://drive.google.com/open?id=1SKH8TkDgx7OOEqsXsFojKf_WdrtC77AU"))
 movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"), c("Genre", "Rating", "Run")]
 
 # Clean up the environment
