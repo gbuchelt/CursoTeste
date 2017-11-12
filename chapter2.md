@@ -2,7 +2,7 @@
 title       : Obtenção dos dados
 description : Aqui você exercitará a importação do dataset que utilizaremos no nosso estudo de caso 
 attachments :
-slides_link : https://docs.google.com/a/numera.consulting/presentation/d/1BIxXHD4vZgtPIjg7efmYQp2Amww5Vlv84Z8qr_Nx29c/edit?usp=sharing
+slides_link : 
 
 ---
 ## More movies
@@ -32,7 +32,7 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 `@pre_exercise_code`
 ```{r}
 # You can also prepare your dataset in a specific way in the pre exercise code
-load(url("https://github.com/gbuchelt/CursoTeste/blob/master/HR_comma_sep.csv"))
+load(url("https://s3.amazonaws.com/assets.datacamp.com/course/teach/movies.RData"))
 movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"), c("Genre", "Rating", "Run")]
 
 # Clean up the environment
