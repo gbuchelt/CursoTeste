@@ -48,7 +48,7 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 ---
-## More movies
+## Importação de dados no R
 
 ```yaml
 type: NormalExercise
@@ -58,14 +58,13 @@ skills: 1
 key: 6951acb932
 ```
 
-In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
+Agora é hora de importar o arquivo contendo os dados de evas˜ão de colaboradores.
 
-A dataset with a selection of movies, `movie_selection`, is available in the workspace.
+O arquivo `dadosEvasao.csv` foi carregado no seu ambiente. Basta usar o comando de importação do R.
 
 `@instructions`
-- Check out the structure of `movie_selection`.
-- Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
-- Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`.
+- Importe os dados utilizando o comando  `read.csv()`.
+- Utilize os comandos `head()` e `tail()` para verificar a importação .
 
 `@hint`
 - Use `str()` for the first instruction.
@@ -84,15 +83,12 @@ rm(Movies)
 
 `@sample_code`
 ```{r}
-# movie_selection is available in your workspace
+# Importe os dados de evas˜ão de colaboradores utilizando a função de leitura de CSV do R
+dadosEvasao <- ______.____(________.csv")
 
-# Check out the structure of movie_selection
-
-
-# Select movies that have a rating of 5 or higher: good_movies
+# Verifique se os dados foram importados corretamente utilizando os comandos head() e tail().
 
 
-# Plot Run (i.e. run time) on the x axis, Rating on the y axis, and set the color using Genre
 
 ```
 
