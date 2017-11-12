@@ -32,7 +32,7 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 `@pre_exercise_code`
 ```{r}
 # You can also prepare your dataset in a specific way in the pre exercise code
-load(url("https://drive.google.com/file/d/1SKH8TkDgx7OOEqsXsFojKf_WdrtC77AU/view?usp=sharing"))
+load(url("https://github.com/gbuchelt/CursoTeste/blob/master/HR_comma_sep.csv"))
 movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"), c("Genre", "Rating", "Run")]
 
 # Clean up the environment
