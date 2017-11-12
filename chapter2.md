@@ -15,14 +15,13 @@ skills: 1
 key: 6951acb932
 ```
 
-In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
+Vamos importar o arquivo que será utilizado para a análise de evasão de colaboradores 
 
-A dataset with a selection of movies, `movie_selection`, is available in the workspace.
+O arquivo `dadosEvasao.csv` est'á dispon'ível no seu workspace. Basta importá-lo utilizando o comando de importação do R
 
 `@instructions`
-- Check out the structure of `movie_selection`.
-- Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
-- Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`.
+- Importe o arquivo `dadosEvasao.csv`.
+- Analise os dados importados utilizando os comandos `head(<nome_do_dataframe>)` e `tail(<nome_do_dataframe>)`
 
 `@hint`
 - Use `str()` for the first instruction.
@@ -41,15 +40,10 @@ rm(Movies)
 
 `@sample_code`
 ```{r}
-# movie_selection is available in your workspace
+# Importe o arquivo de dados de evasão de colaboradores. Ele está carregado no ambiente com o nome "dadosEvasao.csv"
+dadosEvasao <- _______.______(________)
 
-# Check out the structure of movie_selection
-
-
-# Select movies that have a rating of 5 or higher: good_movies
-
-
-# Plot Run (i.e. run time) on the x axis, Rating on the y axis, and set the color using Genre
+# Confira a importa'ç˜ção utilizando os comandos head() e tail()
 
 ```
 
